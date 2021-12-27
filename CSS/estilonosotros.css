@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    width: 1260px;
+    height: 170px;
+    position: absolute;
+    
+    
+}
+h1{
+    object-position: left;
+    margin: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: absolute;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 5px;
+    padding-inline: 2px;
+    margin-inline: 10px;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+nav{
+    color:white;
+    width: 1260px;
+    height: 100px;
+    display: flex;
+    text-align: justify;
+    align-content: space-between;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+nav a:hover{
+    color: violet;
+}
+.nosotros{
+    width: 1260px;
+    height: 1400px;
+    background-color: white;
+    background-image:linear-gradient(white, grey, gray, black);
+    background-image:linear-gradient(to bottom left, white, grey, gray, black);
+    display: flex;
+    justify-content:space-evenly;
+    align-content:space-between;
+    align-items: baseline;   
+}
+.main__div{
+    width: 1260px;
+    height: 1400px;
+    padding: 0px;
+
+}
+.article__quienessomos{
+    width: 1125px;
+    height: 700px;
+    padding: 0;
+    
+   
+}
+.article__h2quienesomos{
+    font-size: 50PX;
+    width: 1125px;
+    height: 60px;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 160px;
+    display: inline-block;
+    color:black;
+    font-family: cursive;
+    text-align: justify;
+    position: relative;    
+
+}
+.article__pquienesomos{
+    width: 1125px;
+    height: 120px;
+    position: relative;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 0;
+    margin-top: 10px;
+    text-align: justify;
+    color: black;
+    margin-left: 100px;
+}
+.article__misionyvision{
+    width: 1125px;
+    height: 700px;
+    padding: 0;
+    
+
+}    
+.article__h2misionyvision{
+    width: 1125px;
+    font-size: 50PX;
+    font-weight: bold;
+    position: relative;
+    padding: 0;
+    margin-top: 160px;
+    display: inline-block;
+    color:black;
+    font-family: cursive;
+    text-orientation: sideways-right;
+    text-align: justify;
+}
+.article__pmisionyvision{
+   width: 1125px;
+    position: relative;
+    text-orientation: sideways-right;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 0;
+    margin-top: 10px;
+    text-align: justify;
+    color: black;
+    margin-left: 100px;
+}
+.footer{
+    background-color: black;
+    width: 1260px;
+    height: 170px;
+    position: absolute;
+}
+.f__nav{
+    color:white;
+    width: 1260px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 60px;
+    padding: 5px;
+    padding-inline: 2px;
+    margin-inline: 10px;
+}
+.f__logo{
+    object-position: left;
+    margin: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: absolute;
+    color: white;
+    
+}
+footer a{
+    color: white;
+    text-decoration-line: none;
+}
+footer a:hover{
+    color: violet;
+}

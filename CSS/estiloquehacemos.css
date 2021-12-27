@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    width: 1260px;
+    height: 170px;
+    position: absolute;
+    
+    
+}
+h1{
+    object-position: left;
+    margin: 2%;
+    position: absolute;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 5px;
+    padding-inline: 2px;
+    margin-inline: 10px;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+nav{
+    color:white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: justify;
+    align-content: space-between;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+nav a:hover{
+    color: violet;
+}
+.quehacemos{
+    width: 1260px;
+    height: 1400px;
+    align-content: center;
+    background-color: white;
+    background-image:linear-gradient(white, grey, gray, black);
+    background-image:linear-gradient(to bottom left, white, grey, gray, black);
+
+    
+}
+.qh__eventos{
+    font-size: 50PX;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin-top: 160px;
+    display: inline-block;
+    color:black;
+    font-family: cursive;
+    text-orientation: sideways-right;
+    text-align: justify;
+}
+.qh__diveventos{
+    width: 1260px;
+    height: 120px;
+    padding: 0px;
+}
+.qh__peventos{
+    width: 1260px;
+    height: 120px;
+    position: relative;
+    text-orientation: sideways-right;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 0;
+    margin-top: 20px;
+    text-align: justify;
+    color: black;
+    margin-left: 100px;
+}
+.qh__tipoeventos{
+    font-size: 30PX;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin-top: 10px;
+    display: inline-block;
+    color:black;
+    font-family: cursive;
+    text-orientation: sideways-right;
+    text-align: justify;
+}
+.qh__listaeventos{
+    width: 1260px;
+    position: relative;
+    text-orientation: sideways-right;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 0;
+    margin-top: 10px;
+    text-align: justify;
+    color: black;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    list-style-type:square;
+}
+.link__presupuesto{
+    color: black;
+    font-family: cursive;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    background: none;
+    
+}
+.a__presupuesto{
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+.qh__homenajes{
+    font-size: 50PX;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin-top: 10px;
+    display: inline-block;
+    color:black;
+    font-family: cursive;
+    text-orientation: sideways-right;
+    text-align: justify;
+}
+.qh__divhomenajes{
+    width: 1260px;
+    height: 120px;
+    padding: 0px;
+}
+.qh__phomenajes{
+    width: 1260px;
+    height: 650px;
+    position: relative;
+    text-orientation: sideways-right;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 0;
+    margin-top: 10px;
+    text-align: justify;
+    color: black;
+    margin-left: 100px;
+}
+.link__presupuesto2{
+    color: black;
+    font-family: cursive;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    background: none;
+    
+}
+.a__presupuesto2{
+    color: black;
+}
+.footer{
+    background-color: black;
+    width: 1260px;
+    height: 170px;
+    position: absolute;
+}
+.f__nav{
+    color:white;
+    width: 1260px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 60px;
+    padding: 5px;
+    padding-inline: 2px;
+    margin-inline: 10px;
+}
+.f__logo{
+    object-position: left;
+    margin: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: absolute;
+    color: white;
+    
+}
+footer a{
+    color: white;
+    text-decoration-line: none;
+}
+footer a:hover{
+    color: violet;
+}

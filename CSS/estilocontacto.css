@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    width: 1260px;
+    height: 170px;
+    position: absolute;
+    
+    
+}
+h1{
+    object-position: left;
+    margin: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: absolute;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 5px;
+    padding-inline: 2px;
+    margin-inline: 10px;
+       
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+nav{
+    color:white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: justify;
+    align-content: space-between;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+nav a:hover{
+    color: violet;
+}
+.contacto{
+    width: 1260px;
+    height: 1400px;
+    align-content: center;
+    background-color: white;
+    background-image:linear-gradient(white, grey, gray, black);
+    background-image:linear-gradient(to bottom left, white, grey, gray, black);
+
+}
+.contacto__h2{
+    font-size: 50PX;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin-top: 200px;
+    display: inline-block;
+    color: black;
+    font-family: cursive;
+    text-orientation: sideways-right;
+    text-align: justify;
+}
+.contacto__form{
+    margin-top: 5px;
+    align-content: center;
+    margin-left: 100px;
+    text-align: left;
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding: 10px;
+    padding-inline: 10px;   
+
+}
+.contacto__div{
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+.contacto__enviar{
+    color: black;
+    font-family: cursive;
+    font-size: 24px;
+    margin-left: 180px;
+}
+.tel__contacto{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: right;
+    padding-inline: 5px;
+    display: flex;
+    align-content: flex-start;
+    align-items: baseline;
+    justify-content: center;
+
+}
+.p__telcontacto{
+    font-family: cursive;
+    font-size: 20px;
+    padding-inline: 5px;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 170px;
+    position: absolute;
+}
+.f__nav{
+    color:white;
+    width: auto;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 60px;
+    padding: 5px;
+    padding-inline: 2px;
+    margin-inline: 10px;
+}
+.f__logo{
+    object-position: left;
+    margin: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: absolute;
+    color: white;
+    
+}
+footer a{
+    color: white;
+    text-decoration-line: none;
+}
+footer a:hover{
+    color: violet;
+}
