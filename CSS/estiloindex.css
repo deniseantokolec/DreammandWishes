@@ -39,14 +39,8 @@ nav{
     color:white;
     width: 100%;
     height: 100px;
-    display: flex;
     text-align: justify;
-    align-content: space-between;
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: baseline;
-
+    
 }
 nav a:hover{
     color: violet;
@@ -63,10 +57,6 @@ nav a:hover{
     padding: 0px;
 }
 .div__articleeventos{
-    padding: 0px;
-    background-image: url(/Imagenes/eventosocial.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 
     
 }
@@ -79,7 +69,7 @@ nav a:hover{
     padding: 0;
     margin-top: 0px;
     text-align: justify;
-    color: white;
+    color: black;
     margin-left: 450px;
     flex-direction: row;
     flex-flow: row wrap;
@@ -95,7 +85,7 @@ nav a:hover{
     padding: 0;
     margin-top: 300px;
     display: flex;
-    color: white;
+    color: black;
     font-family: cursive;
     text-align: justify;
     flex-direction: row;
@@ -107,9 +97,6 @@ nav a:hover{
     
 }
 .div__articlehomenajes{
-    background-image: url(/Imagenes/homenajes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     
 
 }
@@ -119,7 +106,7 @@ nav a:hover{
     padding: 0;
     margin-top: 150px;
     display: flex;
-    color: white;
+    color: black;
     font-family: cursive;
     text-align: justify;
     flex-direction: row;
@@ -140,7 +127,7 @@ nav a:hover{
     padding: 0;
     margin-top: 0px;
     text-align: justify;
-    color: white;
+    color: black;
     margin-left: 450px;
     flex-direction: row;
     flex-flow: row wrap;
