@@ -8,51 +8,76 @@
     <link rel="stylesheet" href="/CSS/estiloindex.css">
     <script src="js/bootstrap.min.js">   
     </script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <title>Inicio</title>
     <link rel="shortcut icon" href="Imagenes/DreamWishesLogo.png" type="image/x-icon">
 
 </head>
 <body>
-    <header class="container row">
-        <h1 class= "row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4">
-        <a href="#"><img src="imagenes/DreamWishesLogo.png" alt="Logo"></a>
-        </h1>
-        <nav>
-            <ul class="nav row-cols-xs-11 row-cols-sm-10 row-cols-md-9 row-cols-lg-8 row-cols-xl-8">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="../Secciones/nosotros.html">Nosotros</a></li>
-                <li><a href="../Secciones/quehacemos.html">Que Hacemos</a></li>
-                <li><a href="../Secciones/galeria.html">Galeria</a></li>
-                <li><a href="../Secciones/contacto.html">Contacto</a></li>
-                <li><a href="../Secciones/presupuesto.html">Pedi tu presupuesto</a></li>
-            </ul>
+    <header>
+  
+        <nav class= "navbar navbar-expand-md">
+            
+            <a class= "navbar-brand" href="./index.html">
+                <img src="imagenes/DreamWishesLogo.png" alt="Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <Span class="navbar-toggler-icon"></Span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class= "nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class= "nav-link" href="../Secciones/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class= "nav-link" href="../Secciones/quehacemos.html">Que Hacemos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class= "nav-link" href="../Secciones/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class= "nav-link" href="../Secciones/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class= "nav-link" href="../Secciones/presupuesto.html">Pedi tu presupuesto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main class="main row-cols-xs-12 row-cols-sm-12 row-cols-md-12 row-cols-lg-12 row-cols-xl-12">
-        <div class= "main__div row-cols-xs-12 row-cols-sm-12 row-cols-md-12 row-cols-lg-12 row-cols-xl-12">
-            <article class="div__articleeventos row-cols-xs-12 row-cols-sm-12 row-cols-md-12 row-cols-lg-12 row-cols-xl-12">  
-                <p class= "ptit__eventos row-cols-xs-12 row-cols-sm-8 row-cols-md-5 row-cols-lg-4 row-cols-xl-4">Eventos Sociales</p> 
+        <main class="main container-fluid row">
+            <div class= "main__div col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <article class="div__articleeventos">
+
+                    <p class= "ptit__eventos">Eventos Sociales</p> 
                 
-                <p class="p__eventos row-cols-xs-12 row-cols-sm-4 row-cols-md-7 row-cols-lg-8 row-cols-xl-8">Ese evento que siempre soñaste, realizado con amor y dedicación eso es lo que creamos en Dream and Wishes.</p> <br>
-                <button class="ver__eventos"><a href="/Secciones/quehacemos.html" class="a__eventos row-cols-xs-12 row-cols-sm-12 row-cols-md-12 row-cols-lg-12 row-cols-xl-12">Ver más</a></button>
-            </article> 
-            <article class="div__articlehomenajes row-cols-xs-12 row-cols-sm-12 row-cols-md-12 row-cols-lg-12 row-cols-xl-12">
-                <p class="ptit__homenajes row-cols-xs-12 row-cols-sm-8 row-cols-md-5 row-cols-lg-4 row-cols-xl-4">Homenajes</p>
-                <p class="p__homenajes row-cols-xs-12 row-cols-sm-4 row-cols-md-7 row-cols-lg-8 row-cols-xl-8"> Tenes que hacer un homenaje para un ser querido pero no se te ocurren ideas, en Dream and wishes te brindamos todo lo que necesitas para ese mommento.</p> <br>
-                <button class= "ver__homenajes"><a href="/Secciones/quehacemos.html" class="a__homenajes row-cols-xs-12 row-cols-sm-12 row-cols-md-12 row-cols-lg-12 row-cols-xl-12">Ver más</a></button> 
-            </article>
-        </div>
-    </main>
-    <footer class="footer row-cols-xs-12 row-cols-sm-12 row-cols-md-12 row-cols-lg-12 row-cols-xl-12">
+                    <p class="p__eventos">Ese evento que siempre soñaste, realizado con amor y dedicación eso es lo que creamos en Dream and Wishes.</p> <br>
+                    <button class="ver__eventos"><a href="/Secciones/quehacemos.html" class="a__eventos">Ver más</a></button>
+                </article> 
+                <article class="div__articlehomenajes">
+                 <p class="ptit__homenajes">Homenajes</p>
+                    <p class="p__homenajes"> Tenes que hacer un homenaje para un ser querido pero no se te ocurren ideas, en Dream and wishes te brindamos todo lo que necesitas para ese mommento.</p> <br>
+                 <button class= "ver__homenajes"><a href="/Secciones/quehacemos.html" class="a__homenajes">Ver más</a></button> 
+                </article>
+            </div>
+        </main>
+    <footer class="footer container-fñuid row">
         <img src="/Imagenes/DreamWishesLogo.png" alt="Logo" class="f__logo">
-            <ul class="f__nav row-cols-xs-12 row-cols-sm-12 row-cols-md-12 row-cols-lg-12 row-cols-xl-12">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="../Secciones/nosotros.html">Nosotros</a></li>
-                <li><a href="../Secciones/quehacemos.html">Que Hacemos</a></li>
-                <li><a href="../Secciones/galeria.html">Galeria</a></li>
-                <li><a href="../Secciones/contacto.html">Contacto</a></li>
-                <li><a href="../Secciones/presupuesto.html">Pedi tu presupuesto</a></li>
-            </ul>
+        <ul class="f__nav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="../Secciones/nosotros.html">Nosotros</a></li>
+            <li><a href="../Secciones/quehacemos.html">Que Hacemos</a></li>
+            <li><a href="../Secciones/galeria.html">Galeria</a></li>
+            <li><a href="../Secciones/contacto.html">Contacto</a></li>
+            <li><a href="../Secciones/presupuesto.html">Pedi tu presupuesto</a></li>
+         </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
