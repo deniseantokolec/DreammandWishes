@@ -15,62 +15,82 @@
 
 </head>
 <body>
-    <header>
-  
+    <header class="container-fluid">
         <nav class= "navbar navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                <Span class="navbar-toggler-icon-bar"></Span>
+            </button>
             
             <a class= "navbar-brand" href="./index.html">
                 <img src="imagenes/DreamWishesLogo.png" alt="Logo">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <Span class="navbar-toggler-icon"></Span>
-            </button>
-
+            </a>  
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class= "nav-link" href="./index.html">Inicio</a>
+                    <a class= "nav-link" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class= "nav-link" href="../Secciones/nosotros.html">Nosotros</a>
+                    <a class= "nav-link" href="../Secciones/nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class= "nav-link" href="../Secciones/quehacemos.html">Que Hacemos</a>
+                    <a class= "nav-link" href="../Secciones/quehacemos.html">Que Hacemos</a>
                     </li>
                     <li class="nav-item">
-                        <a class= "nav-link" href="../Secciones/galeria.html">Galeria</a>
+                    <a class= "nav-link" href="../Secciones/galeria.html">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class= "nav-link" href="../Secciones/contacto.html">Contacto</a>
+                    <a class= "nav-link" href="../Secciones/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class= "nav-link" href="../Secciones/presupuesto.html">Pedi tu presupuesto</a>
+                    <a class= "nav-link" href="../Secciones/presupuesto.html">Pedi tu presupuesto</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-        <main class="main container-fluid row">
-            <div class= "main__div col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <article class="div__articleeventos">
-
-                    <p class= "ptit__eventos">Eventos Sociales</p> 
+    <section class="row">       
+        <article class="article col-xs-12 col-sm-12 col-md-8 col-lg-7 col-xl-7">
+            <p class= "ptit__eventos">Eventos Sociales</p><br> 
                 
-                    <p class="p__eventos">Ese evento que siempre soñaste, realizado con amor y dedicación eso es lo que creamos en Dream and Wishes.</p> <br>
-                    <button class="ver__eventos"><a href="/Secciones/quehacemos.html" class="a__eventos">Ver más</a></button>
-                </article> 
-                <article class="div__articlehomenajes">
-                 <p class="ptit__homenajes">Homenajes</p>
-                    <p class="p__homenajes"> Tenes que hacer un homenaje para un ser querido pero no se te ocurren ideas, en Dream and wishes te brindamos todo lo que necesitas para ese mommento.</p> <br>
-                 <button class= "ver__homenajes"><a href="/Secciones/quehacemos.html" class="a__homenajes">Ver más</a></button> 
-                </article>
+            <p class="p__eventos">Ese evento que siempre soñaste, realizado con amor y dedicación eso es lo que creamos en Dream and Wishes.</p> <br>
+                
+            <button class="ver__eventos btn-light" type="button"><a href="/Secciones/quehacemos.html" class="a__eventos">Ver más</a></button> <br>
+      
+            <p class="ptit__homenajes">Homenajes</p> <br>
+            
+            <p class="p__homenajes"> Tenes que hacer un homenaje para un ser querido pero no se te ocurren ideas, en Dream and wishes te brindamos todo lo que necesitas para ese mommento.</p> <br>
+            
+            <button class= "ver__homenajes btn-light" type="button"><a href="/Secciones/quehacemos.html" class="a__homenajes">Ver más</a></button><br> 
+        </article>
+        <aside class="aside col-xs-12 col-sm-12 col-md-4 col-lg-5 col-5">
+            <div id="fotos"  id="fotos2" class="carousel slide" data-ride="carousel" style="align-items: center; align-content: center;">
+            
+                <ul class="carousel-indicators">
+                    <li data-target="#fotos" data-slide-to="0" class="active"></li>
+                    <li data-target="#fotos2" data-slide-to="1"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"></div>
+                        <img src="/Imagenes/eventosocial.jpg" alt="eventosocial"  style="height: 300px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Imagenes/homenajes.jpg" alt="homenajes"> 
+                    </div> 
+                    <a class="carousel-control-prev" href="#fotos" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#fotos2" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
             </div>
-        </main>
+        </aside>
+    </section>
+
     <footer class="footer container-fñuid row">
         <img src="/Imagenes/DreamWishesLogo.png" alt="Logo" class="f__logo">
-        <ul class="f__nav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <ul class="f__nav">
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="../Secciones/nosotros.html">Nosotros</a></li>
             <li><a href="../Secciones/quehacemos.html">Que Hacemos</a></li>
