@@ -5,50 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Que Hacemos</title>
-    <link rel="shortcut icon" href="/Imagenes/DreamWishesLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
     <link rel="stylesheet" href="/CSS/estiloquehacemos.css">
+    <script src="js/bootstrap.min.js">   
+    </script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="shortcut icon" href="/Imagenes/DreamWishesLogo.png" type="image/x-icon">
+    
 </head>
 <body>
-    <header>
-        <H1>
-            <a href="../index.html"><img src="/Imagenes/DreamWishesLogo.png" alt="Logo"></a>
-            </H1>
-            <nav>
-                <ul>
-                    <li><a href="../index.html" >Inicio</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./quehacemos.html">Que Hacemos</a></li>
-                    <li><a href="./galeria.html">Galeria</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./presupuesto.html">Pedi tu presupuesto</a></li>
+    <header class="container-fluid">
+        <nav class= "navbar navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                <Span class="navbar-toggler-icon-bar"></Span>
+            </button>
+            
+            <a class= "navbar-brand" href="../index.html">
+                <img src="/Imagenes/DreamWishesLogo.png" alt="Logo">
+            </a>  
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class= "nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class= "nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class= "nav-link" href="./quehacemos.html">Que Hacemos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class= "nav-link" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class= "nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class= "nav-link" href="./presupuesto.html">Pedi tu presupuesto</a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
+        </nav>
     </header>
-    <main class="quehacemos">
-        <h2 class="qh__eventos">Eventos Sociales</h2>
-        <div class="qh__diveventos">
+    <section class="quehacemos contaier-fluid row">
+        <article class="col-12">
+            <h2 class="qh__eventos">Eventos Sociales</h2>
             <p class="qh__peventos">
                 En Dream and Wishes tenemos como objetivo lograr que los eventos sean lo mas identicos a lo que sueñan nuestros clientes, por eso con mucha dedicación buscamos brindar la mejor calidad, buscando un ambiente de amor y felicidad.
             </p>
-        </div>
-        <h3 class="qh__tipoeventos">Tipos de eventos</h3>
-        <ul class="qh__listaeventos">
-            <li>Casamientos</li>
-            <li>Bar/Bat Mitzva</li>
-            <li>Fiesta de 15 años</li>
-            <li>Bautismos</li>
-            <li>Brit mila y Simjat Bat</li>
-            <li>Otros</li>
-        </ul>
-        <button class="link__presupuesto"><a href="/Secciones/presupuesto.html" class="a__presupuesto">Pedi tu presupuesto</a></button> <hr>
-        <h2 class="qh__homenajes">Homenajes</h2>
-        <div class="qh__divhomenajes">
+            <h3 class="qh__tipoeventos">Tipos de eventos</h3>
+            <ul class="qh__listaeventos">
+                <li>Casamientos</li>
+                <li>Bar/Bat Mitzva</li>
+                <li>Fiesta de 15 años</li>
+                <li>Bautismos</li>
+                <li>Brit mila y Simjat Bat</li>
+                <li>Otros</li>
+            </ul>
+            <button class="link__presupuesto btn-light" type="button">
+                <a href="/Secciones/presupuesto.html" class="a__presupuesto">Pedi tu presupuesto</a>
+            </button> <hr>
+            <h2 class="qh__homenajes">Homenajes</h2>
             <p class="qh__phomenajes"> 
                 No te mates mas la cabeza!!! Si no sabes que hacerle de hommenaje a ese ser que tanto queres en Dream and Wishes te damos las herramientas para que puedas hacer lo mas espctacular. Te brindamos todo lo que necesitas, no te desesperes, contas con nosotros...
             </p>
-        </div>
-        <button class="link__presupuesto2"><a href="/Secciones/presupuesto.html" class="a__presupuesto2">Pedi tu presupuesto</a></button>
-    </main>
+            <button class="link__presupuesto2 btn-light" type="button">
+                <a href="/Secciones/presupuesto.html" class="a__presupuesto2">Pedi tu presupuesto</a>
+            </button>
+        </article>
+    </section>
     <footer class="footer">
         <img src="/Imagenes/DreamWishesLogo.png" alt="Logo" class="f__logo">
         <ul class="f__nav">
@@ -60,5 +87,9 @@
             <li><a href="../Secciones/presupuesto.html">Pedi tu presupuesto</a></li>
         </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 </html>

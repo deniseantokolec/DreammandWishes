@@ -47,7 +47,7 @@ nav a:hover{
     color: violet;
 }
 .quehacemos{
-    width: 1260px;
+    width: 1240px;
     height: 1400px;
     align-content: center;
     background-color: white;
@@ -69,13 +69,9 @@ nav a:hover{
     text-orientation: sideways-right;
     text-align: justify;
 }
-.qh__diveventos{
-    width: 1260px;
-    height: 120px;
-    padding: 0px;
-}
+
 .qh__peventos{
-    width: 1260px;
+    width: 1200px;
     height: 120px;
     position: relative;
     text-orientation: sideways-right;
@@ -101,7 +97,7 @@ nav a:hover{
     text-align: justify;
 }
 .qh__listaeventos{
-    width: 1260px;
+    width: 1200px;
     position: relative;
     text-orientation: sideways-right;
     font-size: 24px;
@@ -144,13 +140,9 @@ nav a:hover{
     text-orientation: sideways-right;
     text-align: justify;
 }
-.qh__divhomenajes{
-    width: 1260px;
-    height: 120px;
-    padding: 0px;
-}
+
 .qh__phomenajes{
-    width: 1260px;
+    width: 1200px;
     height: 650px;
     position: relative;
     text-orientation: sideways-right;
