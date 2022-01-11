@@ -15,14 +15,25 @@ nav ul li{
     list-style: none;
     display: inline-block;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 60px;
     margin-left: 60px;
     padding: 5px;
-    padding-inline: 2px;
-    margin-inline: 10px;
+    padding-inline: 1px;
+    margin-inline: 5px;
 
               
+}
+.nav-item{
+    font-family: cursive;
+    color: white;
+
+}
+.nav-link{
+    color: white;
+}
+nav .nav-item a:hover{
+    color: violet;
 }
 a{
     color: white;
@@ -40,6 +51,12 @@ nav{
 nav a:hover{
     color: violet;
 }
+.d-flex{
+    width: 220px;
+}
+.form-control{
+    width: 150px;
+}
 .main{
     width: 1200px;
     height: 1400px;
@@ -52,7 +69,7 @@ section{
 .p__eventos{
     width: 50%;
     position: relative;
-     font-size: 24px;
+    font-size: 24px;
     font-family: cursive;
     padding: 0;
     margin-top: 0px;

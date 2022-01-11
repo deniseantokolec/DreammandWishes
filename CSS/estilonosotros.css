@@ -4,46 +4,68 @@
 }
 header{
     background-color: black;
-    width: 1260px;
+    width: 1200px;
     height: 170px;
     position: absolute;
     
     
 }
-h1{
-    object-position: left;
-    margin: 2%;
-    padding-left: 0%;
-    padding-right: 0%;
-    position: absolute;
-    color: white;
-}
+
 nav ul li{
     list-style: none;
     display: inline-block;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 60px;
     margin-left: 60px;
     padding: 5px;
-    padding-inline: 2px;
-    margin-inline: 10px;
+    padding-inline: 1px;
+    margin-inline: 5px;
+
+              
+}
+.nav-item{
+    font-family: cursive;
+    color: white;
+
+}
+.nav-link{
+    color: white;
+}
+nav .nav-item a:hover{
+    color: violet;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+    
+    
+}
+nav{
+    color:white;
+    width: 1200px;
+    height: 170px;
+    text-align: justify;
+    
+}
+nav a:hover{
+    color: violet;
+}
+.d-flex{
+    width: 220px;
+}
+.form-control{
+    width: 150px;
 }
 a{
     color: white;
     text-decoration-line: none;
 }
 nav{
-    color:white;
+    color:black;
     width: 1260px;
-    height: 100px;
-    display: flex;
-    text-align: justify;
-    align-content: space-between;
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: baseline;
+    height: 200px;
+   
 }
 nav a:hover{
     color: violet;
